@@ -8,6 +8,9 @@
 
 /* Begin PBXBuildFile section */
 		BC78B3861C50F675002EA223 /* main.swift in Sources */ = {isa = PBXBuildFile; fileRef = BC78B3851C50F675002EA223 /* main.swift */; };
+		BC78B39C1C514823002EA223 /* parse clipping.swift in Sources */ = {isa = PBXBuildFile; fileRef = BC78B39B1C514823002EA223 /* parse clipping.swift */; };
+		BC78B39E1C5148A9002EA223 /* process clippings array.swift in Sources */ = {isa = PBXBuildFile; fileRef = BC78B39D1C5148A9002EA223 /* process clippings array.swift */; };
+		BC78B3A01C5149B0002EA223 /* write clippings.swift in Sources */ = {isa = PBXBuildFile; fileRef = BC78B39F1C5149B0002EA223 /* write clippings.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -26,6 +29,9 @@
 		BC78B3871C50F675002EA223 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		BC78B38C1C50F675002EA223 /* clippings-processorTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "clippings-processorTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		BC78B3901C50F675002EA223 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		BC78B39B1C514823002EA223 /* parse clipping.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "parse clipping.swift"; sourceTree = "<group>"; };
+		BC78B39D1C5148A9002EA223 /* process clippings array.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "process clippings array.swift"; sourceTree = "<group>"; };
+		BC78B39F1C5149B0002EA223 /* write clippings.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "write clippings.swift"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -68,6 +74,9 @@
 			isa = PBXGroup;
 			children = (
 				BC78B3851C50F675002EA223 /* main.swift */,
+				BC78B39F1C5149B0002EA223 /* write clippings.swift */,
+				BC78B39D1C5148A9002EA223 /* process clippings array.swift */,
+				BC78B39B1C514823002EA223 /* parse clipping.swift */,
 				BC78B3871C50F675002EA223 /* Info.plist */,
 			);
 			path = "clippings-processor";
@@ -170,6 +179,9 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				BC78B3A01C5149B0002EA223 /* write clippings.swift in Sources */,
+				BC78B39C1C514823002EA223 /* parse clipping.swift in Sources */,
+				BC78B39E1C5148A9002EA223 /* process clippings array.swift in Sources */,
 				BC78B3861C50F675002EA223 /* main.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -232,6 +244,7 @@
 				MTL_ENABLE_DEBUG_INFO = YES;
 				ONLY_ACTIVE_ARCH = YES;
 				SDKROOT = macosx;
+				SYMROOT = "~/Documents/library/_clippings";
 			};
 			name = Debug;
 		};
@@ -268,6 +281,7 @@
 				MACOSX_DEPLOYMENT_TARGET = 10.11;
 				MTL_ENABLE_DEBUG_INFO = NO;
 				SDKROOT = macosx;
+				SYMROOT = "~/Documents/library/_clippings";
 			};
 			name = Release;
 		};
