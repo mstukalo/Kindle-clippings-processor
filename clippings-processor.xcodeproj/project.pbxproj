@@ -1,0 +1,351 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		BC78B3861C50F675002EA223 /* main.swift in Sources */ = {isa = PBXBuildFile; fileRef = BC78B3851C50F675002EA223 /* main.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		BC78B38D1C50F675002EA223 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BC78B37B1C50F675002EA223 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = BC78B3811C50F675002EA223;
+			remoteInfo = "clippings-processor";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		BC78B3821C50F675002EA223 /* clippings-processor.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "clippings-processor.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		BC78B3851C50F675002EA223 /* main.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = main.swift; sourceTree = "<group>"; };
+		BC78B3871C50F675002EA223 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		BC78B38C1C50F675002EA223 /* clippings-processorTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "clippings-processorTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		BC78B3901C50F675002EA223 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		BC78B3801C50F675002EA223 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		BC78B3891C50F675002EA223 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		BC78B37A1C50F675002EA223 = {
+			isa = PBXGroup;
+			children = (
+				BC78B3841C50F675002EA223 /* clippings-processor */,
+				BC78B38F1C50F675002EA223 /* clippings-processorTests */,
+				BC78B3831C50F675002EA223 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		BC78B3831C50F675002EA223 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				BC78B3821C50F675002EA223 /* clippings-processor.app */,
+				BC78B38C1C50F675002EA223 /* clippings-processorTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		BC78B3841C50F675002EA223 /* clippings-processor */ = {
+			isa = PBXGroup;
+			children = (
+				BC78B3851C50F675002EA223 /* main.swift */,
+				BC78B3871C50F675002EA223 /* Info.plist */,
+			);
+			path = "clippings-processor";
+			sourceTree = "<group>";
+		};
+		BC78B38F1C50F675002EA223 /* clippings-processorTests */ = {
+			isa = PBXGroup;
+			children = (
+				BC78B3901C50F675002EA223 /* Info.plist */,
+			);
+			path = "clippings-processorTests";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		BC78B3811C50F675002EA223 /* clippings-processor */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = BC78B3931C50F675002EA223 /* Build configuration list for PBXNativeTarget "clippings-processor" */;
+			buildPhases = (
+				BC78B37F1C50F675002EA223 /* Sources */,
+				BC78B3801C50F675002EA223 /* Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "clippings-processor";
+			productName = "clippings-processor";
+			productReference = BC78B3821C50F675002EA223 /* clippings-processor.app */;
+			productType = "com.apple.product-type.application";
+		};
+		BC78B38B1C50F675002EA223 /* clippings-processorTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = BC78B3961C50F675002EA223 /* Build configuration list for PBXNativeTarget "clippings-processorTests" */;
+			buildPhases = (
+				BC78B3881C50F675002EA223 /* Sources */,
+				BC78B3891C50F675002EA223 /* Frameworks */,
+				BC78B38A1C50F675002EA223 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				BC78B38E1C50F675002EA223 /* PBXTargetDependency */,
+			);
+			name = "clippings-processorTests";
+			productName = "clippings-processorTests";
+			productReference = BC78B38C1C50F675002EA223 /* clippings-processorTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		BC78B37B1C50F675002EA223 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0720;
+				LastUpgradeCheck = 0720;
+				ORGANIZATIONNAME = "Mykola Stukalo";
+				TargetAttributes = {
+					BC78B3811C50F675002EA223 = {
+						CreatedOnToolsVersion = 7.2;
+					};
+					BC78B38B1C50F675002EA223 = {
+						CreatedOnToolsVersion = 7.2;
+						TestTargetID = BC78B3811C50F675002EA223;
+					};
+				};
+			};
+			buildConfigurationList = BC78B37E1C50F675002EA223 /* Build configuration list for PBXProject "clippings-processor" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = BC78B37A1C50F675002EA223;
+			productRefGroup = BC78B3831C50F675002EA223 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				BC78B3811C50F675002EA223 /* clippings-processor */,
+				BC78B38B1C50F675002EA223 /* clippings-processorTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		BC78B38A1C50F675002EA223 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		BC78B37F1C50F675002EA223 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				BC78B3861C50F675002EA223 /* main.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		BC78B3881C50F675002EA223 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		BC78B38E1C50F675002EA223 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = BC78B3811C50F675002EA223 /* clippings-processor */;
+			targetProxy = BC78B38D1C50F675002EA223 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		BC78B3911C50F675002EA223 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "-";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.11;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = macosx;
+			};
+			name = Debug;
+		};
+		BC78B3921C50F675002EA223 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "-";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.11;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = macosx;
+			};
+			name = Release;
+		};
+		BC78B3941C50F675002EA223 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = "clippings-processor/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @executable_path/../Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "name.stukalo.mykola.clippings-processor";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		BC78B3951C50F675002EA223 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = "clippings-processor/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @executable_path/../Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "name.stukalo.mykola.clippings-processor";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		BC78B3971C50F675002EA223 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				COMBINE_HIDPI_IMAGES = YES;
+				INFOPLIST_FILE = "clippings-processorTests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks @loader_path/../Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "name.stukalo.mykola.clippings-processorTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/clippings-processor.app/Contents/MacOS/clippings-processor";
+			};
+			name = Debug;
+		};
+		BC78B3981C50F675002EA223 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				COMBINE_HIDPI_IMAGES = YES;
+				INFOPLIST_FILE = "clippings-processorTests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks @loader_path/../Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "name.stukalo.mykola.clippings-processorTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/clippings-processor.app/Contents/MacOS/clippings-processor";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		BC78B37E1C50F675002EA223 /* Build configuration list for PBXProject "clippings-processor" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				BC78B3911C50F675002EA223 /* Debug */,
+				BC78B3921C50F675002EA223 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		BC78B3931C50F675002EA223 /* Build configuration list for PBXNativeTarget "clippings-processor" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				BC78B3941C50F675002EA223 /* Debug */,
+				BC78B3951C50F675002EA223 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		BC78B3961C50F675002EA223 /* Build configuration list for PBXNativeTarget "clippings-processorTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				BC78B3971C50F675002EA223 /* Debug */,
+				BC78B3981C50F675002EA223 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = BC78B37B1C50F675002EA223 /* Project object */;
+}
